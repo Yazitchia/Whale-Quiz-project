@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Patrick+Hand&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(202, 236, 252);
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 2rem;
+    margin: 1.5rem;
+    background-color: rgb(177, 227, 250);
+    text-align: center;
+    border: 2px solid rgb(1, 1, 26);
+    border-radius: 10px 10px 0 0;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    color: rgb(1, 1, 26);
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #040136;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #040136;
+    border-radius: 0 15px 0 15px;
+    outline: none;
+}
+
+textarea[name="comment"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #040136;
+    border-radius: 0 15px 0 15px;
+    outline: none;
+}
+
+input {
+    background-color: #f0f0f0;
+    color: #040136;
+    padding: 1rem;
+    border: solid #040136;
+    border-radius: 10px;
+    font-family: 'Patrick Hand', cursive;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #040136;
+
+}
+
+select {
+    cursor: pointer;
+    background-color: rgb(219, 219, 255);
+}
+
+img {
+    width: 20rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(177, 227, 250);
+    color: rgb(1, 1, 26);
+    padding: 1rem;
+}
+
+td {
+    color: rgb(1, 1, 26);
+    padding: 1rem;
+}
+
+tfoot td {
+    background-color: rgb(3, 27, 37);
+    color: #f0f0f0;
+    text-align: center;
+}
+
+details {
+    background-color: rgb(53, 103, 126);
+    color: rgb(208, 208, 253);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    color: rgb(208, 208, 253);
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+ol li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid rgb(1, 1, 26);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: rgb(1, 1, 26);
+    padding: 0 0.5rem;
+}
+
+form {
+    font-family: 'Patrick Hand', cursive;
+}
+
+button {
+    background-color: #040136;
+    color: #f0f0f0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Patrick Hand', cursive;
+    cursor: pointer;
+}
+
+
+
+footer {
+    background-color: rgb(1, 1, 26);
+    color: #f0f0f0;
+    font-family: 'Patrick Hand', cursive;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+footer a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+}
